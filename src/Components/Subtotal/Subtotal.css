@@ -1,0 +1,33 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    box-shadow: 1px 1px 5px lightgray;
+}
+
+.sidebar-head{
+    font-size: 20px;
+}
+
+.contains-gift{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 2px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+}
+
+.proceed-buy{
+    background-color: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    height: 29px;
+    box-shadow: 0 2px 5px 0 hsla(180,5%,84%,.5);
+}

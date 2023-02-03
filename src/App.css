@@ -1,0 +1,18 @@
+
+.btn-danger{
+  height: 100px;
+  width: 100px;
+  margin: 70px;
+  font-size: 50px !important;
+}
+
+.btn-success{
+  height: 100px;
+  width: 100px;
+  margin: 70px;
+  font-size: 50px !important;
+}
+
+.count{
+  font-size: 100px;
+}
