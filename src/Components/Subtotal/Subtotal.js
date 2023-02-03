@@ -10,7 +10,7 @@ function Subtotal() {
 
             <div className="contains-gift">
                 <input type="checkbox" id="contains-gift" />
-                <label for="">This order contains GIFT Testing</label>
+                <label for="">This order contains GIFT</label>
             </div>
 
             <button className="proceed-buy">Proceed to Buy</button>
