@@ -1,8 +1,12 @@
 import React from 'react'
 import "./Checkout.css"
 import Subtotal from '../Subtotal/Subtotal'
+import { useSelector } from 'react-redux'
 
 function Checkout() {
+
+  const items = useSelector((state) => state.allCart)
+
   return (
     <div className="checkout">
         <div className="checkout-left">
@@ -19,7 +23,7 @@ function Checkout() {
 
         <div className="checkout-right">
             <Subtotal />
-        </div>
+        </div> 
     </div>
   )
 }

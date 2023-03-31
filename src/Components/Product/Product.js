@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Product.css"
+import { useDispatch } from 'react-redux'
+// import { add } from "../../Redux/cartSlice"
 
 const Product = ({ title, image, price, rating}) => {
+  const dispatch = useDispatch();
   return (
     <div className='product'>
       <div className="product-info">
